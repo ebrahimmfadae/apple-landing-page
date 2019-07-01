@@ -7,14 +7,16 @@
         {% include header.html %}
         <div class="row">
           <div class="col-sm-1 col-md-2 col-lg-2"></div>
-          <div class="col-sm-10 col-md-8 col-lg-9">{% include download.html %}</div>
+          <div class="col-sm-10 col-md-8 col-lg-9">
+            {% include download.html %}
+          </div>
           <div class="col-sm-1 col-md-2 col-lg-1"></div>
         </div>
       </div>
       {% include features.html %} {% include footer.html %}
     </div>
     {% if site.ios_app_id %}
-      <script src="{{ site.baseurl }}/assets/js/main.js"></script>
+    <script src="{{ site.baseurl }}/assets/js/main.js"></script>
     {% endif %}
   </body>
 </html>
