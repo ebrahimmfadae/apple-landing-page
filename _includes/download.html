@@ -1,0 +1,20 @@
+<div class="download d-flex flex-wrap-reverse">
+  <div class="iphone-preview">
+    <img class="iphone-screen" src="{{ site.baseurl }}/assets/screenshot.jpg" />
+  </div>
+  <div class="app-detail">
+    <div class="app-icon d-flex flex-wrap">
+      <div class="app-icon-shadow"><img class="large-icon" /></div>
+      <div class="app-name-price-container d-block">
+        <p class="app-name">{{ site.app_name }}</p>
+        <p class="app-price">{{ site.data[page.lang].app_price }}</p>
+      </div>
+    </div>
+    <p class="app-description">
+      {{ site.data[page.lang].app_description }}
+    </p>
+    <a class="app-store-link" href="{{ site.appstore_link }}"
+      ><img class="app-store" src="{{ site.baseurl }}/assets/appstore.png"
+    /></a>
+  </div>
+</div>

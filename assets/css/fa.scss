@@ -1,0 +1,12 @@
+---
+---
+
+@import "variables";
+
+$font-family: IRANSans;
+$font-weight: 200;
+$text-font-size: 1.05rem;
+$footer-font-size: 0.8rem;
+$text-line-height: 1.9rem;
+
+@import "base", "layouts", "modules"

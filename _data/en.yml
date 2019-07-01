@@ -1,0 +1,20 @@
+# App Info
+app_description: Spotify is the best way to listen to music
+app_price: Free
+
+# Information About Yourself
+copyright: Created by Ebrahim Hoseini Fadaie 2019
+
+# Feature List
+features:
+  - title: Free on mobile
+    description: Play any artist, album, or playlist in shuffle mode
+    fontawesome_icon_name: mobile
+
+  - title: Free on tablet
+    description: Enjoy ad-free music. Play any song, any time
+    fontawesome_icon_name: tablet
+
+  - title: Premium features
+    description: "Play any song, any time on any device: mobile, tablet or computer. Listen offline"
+    fontawesome_icon_name: play-circle

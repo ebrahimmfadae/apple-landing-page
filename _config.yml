@@ -1,0 +1,23 @@
+#page title
+page_title: Get Spotify # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+
+# App Info
+ios_app_id: 324684580 # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
+
+app_icon: # assets/appicon.png - Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
+app_name: Spotify # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
+app_header_name: Spotify
+
+#############################
+### Jekyll Configuration. ###
+#############################
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :compressed # You might prefer to minify using :compressed
+
+# Exclude these files from your production _site
+exclude:
+  - README.md
+
+baseurl: /apple-landing-page

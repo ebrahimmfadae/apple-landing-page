@@ -1,0 +1,15 @@
+<div class="features-container">
+  <div class="row" dir="{{ page.direction }}">
+    {% for feature in site.data[page.lang].features %}
+    <div class="col-md-4">
+      <div class="feature d-flex">
+        <i class="fas fa-{{ feature.fontawesome_icon_name }}"></i>
+        <div>
+          <h2 class="{{ page.direction }}">{{ feature.title }}</h2>
+          <p class="{{ page.direction }}">{{ feature.description }}</p>
+        </div>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

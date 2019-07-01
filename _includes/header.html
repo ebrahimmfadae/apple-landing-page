@@ -1,0 +1,9 @@
+<header class="d-flex">
+  <div class="app-icon-shadow"><img class="header-icon" /></div>
+  <p class="header-name">{{ site.app_header_name }}</p>
+  {% if page.lang == "en" %}
+  <a class="lang-link" href="{{ site.baseurl }}/fa" target="_self">فا</a> {%
+  elsif page.lang == "fa" %}
+  <a class="lang-link" href="{{ site.baseurl }}/en" target="_self">En</a> {%
+  endif %}
+</header>

@@ -1,0 +1,42 @@
+---
+---
+
+@import "variables";
+
+$font-family: HelveticaNeu;
+$font-weight: 100;
+$line-height: 1.7rem;
+$text-font-size: 1.3rem;
+$footer-font-size: 0.85rem;
+$text-line-height: 1.7rem;
+
+@import "base", "layouts", "modules";
+
+.features-container {
+  .feature {
+    div {
+      margin: 0 0 0 12px;
+    }
+    i {
+      text-align: right;
+    }
+    p {
+      font-weight: 200;
+      @media screen and (max-width: $md-down) {
+        font-size: 1.1rem;
+      }
+    }
+  }
+}
+
+.app-description {
+  font-size: 1.6rem;
+  @media screen and (max-width: $md-down) {
+    font-size: 1.4rem;
+  }
+}
+
+a.lang-link {
+  font-family: IRANSans;
+  font-size: 1.4rem;
+}
