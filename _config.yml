@@ -18,7 +18,12 @@ sass:
 
 # Exclude these files from your production _site
 exclude:
-  - README.md
   - /node_modules
+  - /src
+  - README.md
+  - .gitignore
+  - package.json
+  - package-lock.json
+  - webpack.config.js
 
 baseurl: /apple-landing-page
