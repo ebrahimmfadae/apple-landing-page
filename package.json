@@ -5,7 +5,7 @@
   "private": true,
   "scripts": {
     "build": "webpack",
-    "start": "jekyll serve"
+    "start": "npm run build && jekyll serve"
   },
   "repository": {
     "type": "git",
