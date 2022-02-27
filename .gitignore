@@ -1,6 +1,5 @@
 /node_modules
 /.sass-cache
 /_site
-/assets/js/main.js
 Gemfile
 Gemfile.lock
